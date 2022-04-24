@@ -1,0 +1,25 @@
+
+//@import "~bootstrap/scss/bootstrap";
+
+
+.main {
+
+   @for $i from 1 through 10 {
+      .w-#{$i}0 {
+        width: $i * 10% !important;
+      }
+   }
+
+   .f-left {
+      float: left !important;
+   }
+   
+   .mail-container { 
+      max-width :700px;
+      margin-left: auto;
+      margin-right: auto;
+      overflow-y: scroll;
+      border: 5px solid #000;
+      height: 100vh;
+   }
+}

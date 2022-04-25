@@ -27,5 +27,5 @@ yarn-error.log*
 /private/*
 
 # Backend generated views
-/back/src/views/*
+back/src/views/*
 
